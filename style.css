@@ -105,3 +105,32 @@ ul {
   object-fit: contain;
   border-radius: 4px;
 }
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  border-radius: 12px;
+  border: #3882F6 solid;
+  padding: 50px;
+}
