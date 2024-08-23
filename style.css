@@ -48,4 +48,35 @@ ul {
 
 .hero {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 72px 0;
+}
+
+.hero h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero p {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-img {
+  border-radius: 4px;
+  display: flex;
+}
+
+.hero-img img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 4px;
 }
