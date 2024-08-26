@@ -111,6 +111,8 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 72px;
+  padding: 0 72px;
 }
 
 .cards-title {
@@ -121,16 +123,22 @@ ul {
 
 .cards {
   display: flex;
-  gap: 24px;
+  gap: 72px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card {
   display: flex;
   flex-direction: column;
+  gap: 8px;
+  max-width: 200px;
+  text-align: center;
 }
 
 .card img {
   border-radius: 12px;
   border: #3882F6 solid;
-  padding: 50px;
+  height: 200px;
+  width: 200px;
 }
