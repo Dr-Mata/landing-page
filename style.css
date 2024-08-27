@@ -9,6 +9,10 @@ body {
   justify-content: space-between;
 }
 
+h4 {
+  font-size: 24px;
+}
+
 ul {
   list-style: none;
   display: flex;
@@ -157,5 +161,43 @@ ul {
 .quote h4 {
   text-align: end;
   padding: 0 72px;
-  font-size: 24px;
+}
+
+.sign-up {
+  margin: 72px;
+  background-color: #3882F6;
+  border-radius: 4px;
+  display: flex;
+  padding: 48px;
+}
+
+.sign-up-text {
+  color: #E5E7EB;
+  gap: 4px;
+}
+
+.sign-up-text h4, p, button {
+  margin: 0;
+  padding: 0;
+}
+
+.sign-up button {
+  background-color: #3882F6;
+  border-radius: 4px;
+  border: #E5E7EB solid 2px;
+  color: #E5E7EB;
+  padding: 8px 16px;
+  font-weight: 600;
+  max-width: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-button {
+  margin-left: auto;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
